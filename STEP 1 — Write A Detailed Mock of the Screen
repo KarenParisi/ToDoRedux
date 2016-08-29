@@ -1,0 +1,26 @@
+STEP 1 — Write A Detailed Mock of the Screen
+STEP 2 — Divide The App Into Components
+STEP 3 — List State and Actions For Each Component
+STEP 4 — Create Action Creators For Each Action
+STEP 5 — Write Reducers For Each Action
+STEP 6 — Implement Every Presentational Component
+STEP 7 — Create Container Component For Some/All Presentational Component
+STEP 8 — Finally Bring Them All Together
+
+
+
+TodoApp - main 
+
+AddTodo
+		state: none
+		action: ADDTODO
+Filter
+		state: CurrentFilter
+		action:SET_VISABILTY_FILTER
+
+TodoList
+		state: Toddos (array) & VisabilityFilter(boolean)
+
+		action:TOGGLE_TODO
+
+
